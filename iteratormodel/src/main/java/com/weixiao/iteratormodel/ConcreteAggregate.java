@@ -15,7 +15,9 @@ public class ConcreteAggregate implements Aggregat {
 
     @Override
     public Iterator creatIterator() {
-
+        items.add("item 1");
+        items.add("item 2");
+        items.add("item 3");
         return new ConcreteIterator(this);
     }
 
