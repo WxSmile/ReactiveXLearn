@@ -73,32 +73,6 @@
 
 ## RxJava中的操作符
 
-* 创建操作符：负责创建Observable对象
-
-> 最近大家都在学习RXJAVA，作为有理想(mei shi gan)的程序员，RxJava还是很有必要学习下的。
-
-RXJAVA地址： https://github.com/ReactiveX/RxJava
-
-0.什么是观察者模式
-
-1.RXJAVA是什么
-
-2.最简单的DEMO
-
-在Rxjava当中最重要的就是操作符，RxJava当中有着庞大的操作符
-
-* 创建操作符：负责创建Observable对象
-
-最近大家都在学习RXJAVA，作为有理想(mei shi gan)的程序员，RxJava还是很有必要学习下的。
-
-RXJAVA地址： https://github.com/ReactiveX/RxJava
-
-0.什么是观察者模式
-
-1.RXJAVA是什么
-
-2.最简单的DEMO
-
 在Rxjava当中最重要的就是操作符，RxJava当中有着庞大的操作符
 
 * 创建操作符：负责创建Observable对象
