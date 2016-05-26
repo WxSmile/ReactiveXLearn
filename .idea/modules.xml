@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/iteratormodel/Iteratormodel.iml" filepath="$PROJECT_DIR$/iteratormodel/Iteratormodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxAndroidPro.iml" filepath="$PROJECT_DIR$/RxAndroidPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/publish_subscribe/publish_subscribe.iml" filepath="$PROJECT_DIR$/publish_subscribe/publish_subscribe.iml" />
