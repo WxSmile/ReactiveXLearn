@@ -225,3 +225,5 @@
 		singleOrDefault( ) — 如果Observable完成时返回了单个数据，就返回它，否则返回默认数据
 
 		toFuture( ), toIterable( ), toList( ) — 将Observable转换为其它对象或数据结构
+
+# 关于操作符的一些详细信息： [ReactiveX/RxJava文档中文版](https://mcxiaoke.gitbooks.io/rxdocs/content/  )
