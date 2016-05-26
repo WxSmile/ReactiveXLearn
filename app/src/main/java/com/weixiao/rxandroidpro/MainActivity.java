@@ -6,15 +6,13 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
-import java.util.Observable;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import rx.Scheduler;
+import rx.Observable;
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -58,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // 使用IO线程处理, 主线程响应
-        rx.Observable<String> observable = rx.Observable.create(new rx.Observable.OnSubscribe<String>() {
+        Observable<String> observable = Observable.create(new rx.Observable.OnSubscribe<String>() {
 
             @Override
             public void call(Subscriber<? super String> subscriber) {
@@ -87,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         });
-
     }
 
 
