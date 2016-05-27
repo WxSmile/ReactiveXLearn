@@ -102,6 +102,7 @@
 		never( ) — 创建一个不发射任何数据的Observable
 
 * 变换操作符：对Observable发射的数据执行变换操作的各种操作符
+		
 		map( ) — 对序列的每一项都应用一个函数来变换Observable发射的数据序列
 
 		flatMap( ), concatMap( ), and flatMapIterable( ) 
