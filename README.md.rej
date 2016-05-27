@@ -1,0 +1,15 @@
+diff a/README.md b/README.md	(rejected hunks)
+@@ -99,12 +99,13 @@
+ 
+ 		error( ) — 创建一个什么都不做直接通知错误的Observable
+ 
+ 		never( ) — 创建一个不发射任何数据的Observable
+ 
+ * 变换操作符：对Observable发射的数据执行变换操作的各种操作符
++		
+ 		map( ) — 对序列的每一项都应用一个函数来变换Observable发射的数据序列
+ 
+ 		flatMap( ), concatMap( ), and flatMapIterable( ) 
+ 			— 将Observable发射的数据集合变换为Observables集合，然后将这些Observable发射的数据平坦化的放进一个单独的Observable
+ 
+ 		switchMap( ) — 将Observable发射的数据集合变换为Observables集合，然后只发射这些Observables最近发射的数据

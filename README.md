@@ -102,7 +102,6 @@
 		never( ) — 创建一个不发射任何数据的Observable
 
 * 变换操作符：对Observable发射的数据执行变换操作的各种操作符
-		
 		map( ) — 对序列的每一项都应用一个函数来变换Observable发射的数据序列
 
 		flatMap( ), concatMap( ), and flatMapIterable( ) 
@@ -227,4 +226,5 @@
 
 		toFuture( ), toIterable( ), toList( ) — 将Observable转换为其它对象或数据结构
 
-# 关于操作符的一些详细信息： [ReactiveX/RxJava文档中文版](https://mcxiaoke.gitbooks.io/rxdocs/content/  )
+## 关于操作符的一些详细信息： 
+* [ReactiveX/RxJava文档中文版](https://mcxiaoke.gitbooks.io/rxdocs/content/  )
