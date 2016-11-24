@@ -12,6 +12,16 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/iteratormodel" />
             <option value="$PROJECT_DIR$/publish_subscribe" />
+            <option value="$PROJECT_DIR$/rxjavademo" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/iteratormodel" />
+            <option value="$PROJECT_DIR$/publish_subscribe" />
+            <option value="$PROJECT_DIR$/rxjavademo" />
           </set>
         </option>
       </GradleProjectSettings>

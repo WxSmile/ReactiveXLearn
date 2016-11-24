@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by wangssmf on 2016/5/25.
  * email： wangssmf@hehenian.com
- * 功能：对象
+ * 功能：可观察对象
  */
 public class Subject {
 

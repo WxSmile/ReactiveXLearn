@@ -1,1 +1,1 @@
-include ':app', ':publish_subscribe', ':Iteratormodel', ':iteratormodel'
+include ':app', ':publish_subscribe', ':Iteratormodel', ':iteratormodel', ':rxjavademo'
